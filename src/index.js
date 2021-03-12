@@ -66,5 +66,6 @@ app.delete("/alunos", (req, res, next) => {
         }
     })
     alunos = alunos2;
+    
     res.status(204).end();
 });
